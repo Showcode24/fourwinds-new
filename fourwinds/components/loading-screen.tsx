@@ -35,7 +35,7 @@ export default function LoadingScreen() {
   return (
     <div className="fixed inset-0 bg-black flex flex-col items-center justify-center z-50">
       <motion.div initial="hidden" animate="visible" variants={logoVariants} className="mb-6 relative w-20 h-20">
-        <Image src="/images/dockers-logo.jpg" alt="FOURWINDS | GRILL HOUSE | SPORTS | THE CLUB Logo" fill className="object-contain" priority />
+        <Image src="/images/fourwinds logo.png" alt="FOURWINDS | GRILL HOUSE | SPORTS | THE CLUB Logo" fill className="object-contain" priority />
       </motion.div>
 
       <div className="flex justify-center mb-4">
